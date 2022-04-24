@@ -20,9 +20,11 @@ section{
     height: 80%;
     width: 40%;
     text-align: center;
+    box-sizing: border-box; 
 }
 
 .wrapper .title{
+    text-align: center;
     font-size: 30px;
 }
 
