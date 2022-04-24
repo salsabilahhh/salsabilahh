@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 500%;
+}
+
+section{
+    height: 100px;
+    width: 100%;
+    place-items: center;
+    display: grid;
+}
+
+.wrapper {
+    padding-top: 300px;
+    position:fixed;
+    left:   450px;
+    height: 80%;
+    width: 40%;
+    text-align: center;
+}
+
+.wrapper .title{
+    font-size: 30px;
+}
+
+.wrapper form{
+    padding : 0px 30px 50px 30px;
+}
+
+.wrapper form .field{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.wrapper form .field input{
+    height: 100%;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+form .field input[type="submit"] {
+    color: rgb(255, 255, 255);
+    padding-left: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    background-color: darkblue;
+}

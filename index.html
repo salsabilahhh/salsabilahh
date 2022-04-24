@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tugas2.css">
+    <script src="fontawesome/js/all.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+<main>
+    <div>
+        <section>
+            <div class="wrapper">
+                <div class="title">
+                    <h2>Login</h2>
+                </div>
+                <form action="">
+                    <div class="field">
+                        <input type="text" name="username" placeholder="Username" class="form-control" required="required">
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" placeholder="Email" class="form-control" required="required">
+                    </div>
+                    <div class="field">
+                        <input type="password" name="6 digit number" placeholder="Password" required="required">
+                    </div>
+                    <div class="field">
+                        <input type="submit" name="login account" id="" onclick="Registration()" value="Submit">
+                    </div>
+                    <script>
+                        function Registration(){
+                            swal({
+                                title: "success",
+                                text: "your account has been successfully added",
+                                icon: "success",
+                            });
+                        }
+                    </script>
+                </form>
+            </div>
+        </section>
+    </div>
+</main>
+</body>
+</html>
